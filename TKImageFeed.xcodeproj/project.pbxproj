@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		162D665A2BCABAEF004C290C /* TKImageFeedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162D66592BCABAEF004C290C /* TKImageFeedApp.swift */; };
+		162D665C2BCABAEF004C290C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162D665B2BCABAEF004C290C /* ContentView.swift */; };
+		162D665E2BCABAF0004C290C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162D665D2BCABAF0004C290C /* Assets.xcassets */; };
+		162D66612BCABAF0004C290C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162D66602BCABAF0004C290C /* Preview Assets.xcassets */; };
+		162D666B2BCABAF0004C290C /* TKImageFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162D666A2BCABAF0004C290C /* TKImageFeedTests.swift */; };
+		162D66752BCABAF0004C290C /* TKImageFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162D66742BCABAF0004C290C /* TKImageFeedUITests.swift */; };
+		162D66772BCABAF0004C290C /* TKImageFeedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162D66762BCABAF0004C290C /* TKImageFeedUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		162D66672BCABAF0004C290C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 162D664E2BCABAEF004C290C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 162D66552BCABAEF004C290C;
+			remoteInfo = TKImageFeed;
+		};
+		162D66712BCABAF0004C290C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 162D664E2BCABAEF004C290C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 162D66552BCABAEF004C290C;
+			remoteInfo = TKImageFeed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		162D66562BCABAEF004C290C /* TKImageFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKImageFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		162D66592BCABAEF004C290C /* TKImageFeedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKImageFeedApp.swift; sourceTree = "<group>"; };
+		162D665B2BCABAEF004C290C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		162D665D2BCABAF0004C290C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		162D66602BCABAF0004C290C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		162D66662BCABAF0004C290C /* TKImageFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKImageFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		162D666A2BCABAF0004C290C /* TKImageFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKImageFeedTests.swift; sourceTree = "<group>"; };
+		162D66702BCABAF0004C290C /* TKImageFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKImageFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		162D66742BCABAF0004C290C /* TKImageFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKImageFeedUITests.swift; sourceTree = "<group>"; };
+		162D66762BCABAF0004C290C /* TKImageFeedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKImageFeedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		162D66532BCABAEF004C290C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162D66632BCABAF0004C290C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162D666D2BCABAF0004C290C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		162D664D2BCABAEF004C290C = {
+			isa = PBXGroup;
+			children = (
+				162D66582BCABAEF004C290C /* TKImageFeed */,
+				162D66692BCABAF0004C290C /* TKImageFeedTests */,
+				162D66732BCABAF0004C290C /* TKImageFeedUITests */,
+				162D66572BCABAEF004C290C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		162D66572BCABAEF004C290C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				162D66562BCABAEF004C290C /* TKImageFeed.app */,
+				162D66662BCABAF0004C290C /* TKImageFeedTests.xctest */,
+				162D66702BCABAF0004C290C /* TKImageFeedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		162D66582BCABAEF004C290C /* TKImageFeed */ = {
+			isa = PBXGroup;
+			children = (
+				162D66592BCABAEF004C290C /* TKImageFeedApp.swift */,
+				162D665B2BCABAEF004C290C /* ContentView.swift */,
+				162D665D2BCABAF0004C290C /* Assets.xcassets */,
+				162D665F2BCABAF0004C290C /* Preview Content */,
+			);
+			path = TKImageFeed;
+			sourceTree = "<group>";
+		};
+		162D665F2BCABAF0004C290C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				162D66602BCABAF0004C290C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		162D66692BCABAF0004C290C /* TKImageFeedTests */ = {
+			isa = PBXGroup;
+			children = (
+				162D666A2BCABAF0004C290C /* TKImageFeedTests.swift */,
+			);
+			path = TKImageFeedTests;
+			sourceTree = "<group>";
+		};
+		162D66732BCABAF0004C290C /* TKImageFeedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				162D66742BCABAF0004C290C /* TKImageFeedUITests.swift */,
+				162D66762BCABAF0004C290C /* TKImageFeedUITestsLaunchTests.swift */,
+			);
+			path = TKImageFeedUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		162D66552BCABAEF004C290C /* TKImageFeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162D667A2BCABAF0004C290C /* Build configuration list for PBXNativeTarget "TKImageFeed" */;
+			buildPhases = (
+				162D66522BCABAEF004C290C /* Sources */,
+				162D66532BCABAEF004C290C /* Frameworks */,
+				162D66542BCABAEF004C290C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKImageFeed;
+			productName = TKImageFeed;
+			productReference = 162D66562BCABAEF004C290C /* TKImageFeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		162D66652BCABAF0004C290C /* TKImageFeedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162D667D2BCABAF0004C290C /* Build configuration list for PBXNativeTarget "TKImageFeedTests" */;
+			buildPhases = (
+				162D66622BCABAF0004C290C /* Sources */,
+				162D66632BCABAF0004C290C /* Frameworks */,
+				162D66642BCABAF0004C290C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				162D66682BCABAF0004C290C /* PBXTargetDependency */,
+			);
+			name = TKImageFeedTests;
+			productName = TKImageFeedTests;
+			productReference = 162D66662BCABAF0004C290C /* TKImageFeedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		162D666F2BCABAF0004C290C /* TKImageFeedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162D66802BCABAF0004C290C /* Build configuration list for PBXNativeTarget "TKImageFeedUITests" */;
+			buildPhases = (
+				162D666C2BCABAF0004C290C /* Sources */,
+				162D666D2BCABAF0004C290C /* Frameworks */,
+				162D666E2BCABAF0004C290C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				162D66722BCABAF0004C290C /* PBXTargetDependency */,
+			);
+			name = TKImageFeedUITests;
+			productName = TKImageFeedUITests;
+			productReference = 162D66702BCABAF0004C290C /* TKImageFeedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		162D664E2BCABAEF004C290C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					162D66552BCABAEF004C290C = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					162D66652BCABAF0004C290C = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 162D66552BCABAEF004C290C;
+					};
+					162D666F2BCABAF0004C290C = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 162D66552BCABAEF004C290C;
+					};
+				};
+			};
+			buildConfigurationList = 162D66512BCABAEF004C290C /* Build configuration list for PBXProject "TKImageFeed" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 162D664D2BCABAEF004C290C;
+			productRefGroup = 162D66572BCABAEF004C290C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				162D66552BCABAEF004C290C /* TKImageFeed */,
+				162D66652BCABAF0004C290C /* TKImageFeedTests */,
+				162D666F2BCABAF0004C290C /* TKImageFeedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		162D66542BCABAEF004C290C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162D66612BCABAF0004C290C /* Preview Assets.xcassets in Resources */,
+				162D665E2BCABAF0004C290C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162D66642BCABAF0004C290C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162D666E2BCABAF0004C290C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		162D66522BCABAEF004C290C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162D665C2BCABAEF004C290C /* ContentView.swift in Sources */,
+				162D665A2BCABAEF004C290C /* TKImageFeedApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162D66622BCABAF0004C290C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162D666B2BCABAF0004C290C /* TKImageFeedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162D666C2BCABAF0004C290C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162D66752BCABAF0004C290C /* TKImageFeedUITests.swift in Sources */,
+				162D66772BCABAF0004C290C /* TKImageFeedUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		162D66682BCABAF0004C290C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 162D66552BCABAEF004C290C /* TKImageFeed */;
+			targetProxy = 162D66672BCABAF0004C290C /* PBXContainerItemProxy */;
+		};
+		162D66722BCABAF0004C290C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 162D66552BCABAEF004C290C /* TKImageFeed */;
+			targetProxy = 162D66712BCABAF0004C290C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		162D66782BCABAF0004C290C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		162D66792BCABAF0004C290C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		162D667B2BCABAF0004C290C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TKImageFeed/Preview Content\"";
+				DEVELOPMENT_TEAM = ZY6QRY485S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tomaszkorab.TKImageFeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		162D667C2BCABAF0004C290C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TKImageFeed/Preview Content\"";
+				DEVELOPMENT_TEAM = ZY6QRY485S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tomaszkorab.TKImageFeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		162D667E2BCABAF0004C290C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZY6QRY485S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tomaszkorab.TKImageFeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TKImageFeed.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TKImageFeed";
+			};
+			name = Debug;
+		};
+		162D667F2BCABAF0004C290C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZY6QRY485S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tomaszkorab.TKImageFeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TKImageFeed.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TKImageFeed";
+			};
+			name = Release;
+		};
+		162D66812BCABAF0004C290C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZY6QRY485S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tomaszkorab.TKImageFeedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TKImageFeed;
+			};
+			name = Debug;
+		};
+		162D66822BCABAF0004C290C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZY6QRY485S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tomaszkorab.TKImageFeedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TKImageFeed;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		162D66512BCABAEF004C290C /* Build configuration list for PBXProject "TKImageFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162D66782BCABAF0004C290C /* Debug */,
+				162D66792BCABAF0004C290C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		162D667A2BCABAF0004C290C /* Build configuration list for PBXNativeTarget "TKImageFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162D667B2BCABAF0004C290C /* Debug */,
+				162D667C2BCABAF0004C290C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		162D667D2BCABAF0004C290C /* Build configuration list for PBXNativeTarget "TKImageFeedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162D667E2BCABAF0004C290C /* Debug */,
+				162D667F2BCABAF0004C290C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		162D66802BCABAF0004C290C /* Build configuration list for PBXNativeTarget "TKImageFeedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162D66812BCABAF0004C290C /* Debug */,
+				162D66822BCABAF0004C290C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 162D664E2BCABAEF004C290C /* Project object */;
+}
